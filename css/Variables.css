@@ -1,0 +1,100 @@
+body {
+	background-color: #b649ff;
+
+}
+
+* {
+	padding:0;
+	margin:0;
+}
+
+.Navbar {
+	text-align: center; 
+	margin: 0; 
+	padding: 5px; 
+	
+
+
+}
+
+.Navbar a {
+	float: center;
+	color: black;
+	text-align: center;
+	padding: 1px 15px;
+    font: normal 18px sans-serif;
+    
+}
+
+.Navbar a:hover {
+	background-color: white;
+
+}
+
+.Navbar a.active {
+	background-color: #c509f9;
+}
+
+.centerContaier {
+	
+	background-color: #bcc5d1;
+	margin: auto;
+    width: 60%;
+    border: 3px solid black;
+    padding: 25px;
+    padding-top: 25px;
+    margin-top: 25px;
+}
+.comments{
+
+	
+	background-color: #bcc5d1;
+	margin: 600px auto 150px;
+    width: 768px;
+	overflow: auto;
+	height: 195px;
+    width: 60%;
+    border: 3px solid black;
+    padding: 25px;
+    padding-top: 25px;
+    margin-top: 25px;
+}
+
+.comment-element{
+	
+}
+
+
+.footer {
+	background-color: yellow;
+    
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font: normal 18px sans-serif;
+    padding: 45px;
+    margin-top: 10px;
+    position: bottom ;
+	bottom: 0;
+}
+
+.footer a {
+	color: #c5afff;
+	padding: 1px 15px;
+}
+
+.footer a:hover {
+	background-color: #f4f8ff;
+
+}
+.footer p {color: #c5afff;}
+
+.validator{
+	padding-top: 15px;
+}
+
+.lastModified{
+	color: #c5afff;
+	padding-top: 15px;
+}
+	

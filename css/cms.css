@@ -1,0 +1,200 @@
+body {
+    background-image: url("../../img/tube-2462118_1920.jpg");*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: yellow;
+    font: normal 18px sans-serif;
+    height:100%;
+    padding: 10px;
+    padding-bottom: 110px;
+    
+}
+a:visited { 
+    color: orange;
+}
+
+h1, h3{
+    text-align: center;
+    float: center;
+}
+
+/*Menu.php*/
+#menu {
+    text-align: center; 
+    padding: 50px;
+    list-style: none;
+
+}
+
+#menu a {
+    float: center;
+    color: yellow;
+    text-align: center;
+    padding: 1px 15px;
+    font: normal 18px sans-serif;
+    
+}
+
+#menu a:hover {
+    background-color: gray;
+
+}
+
+#menu a.active {
+    background-color: #c509f9;
+}
+#menu li{
+    list-style: none;
+    display: inline-block;
+    float: center;
+
+
+/*CMS.php*/
+
+}
+
+.events-cms{
+    float: center;
+padding-top: 300px;
+}
+
+.events-cms ul{
+    list-style: none;
+    float: center;
+    padding-left: 856px;
+}
+
+.events-cms p{
+    list-style: none;
+    float: center;
+    padding-left: 856px;
+}
+
+
+#column-photos-cms {
+    float: left;
+    width: 33.33%;
+    padding-left: 25px;
+}
+
+#row-photos-cms:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row-photos-cms {
+    margin: 8px -16px;
+}
+.row-photos-cms,
+.row-photos-cms > .column-photos-cms {
+    padding: 10px;
+}
+
+.column-photos-cms {
+    float: left;
+    width: 25%;
+}
+
+#events-cms{
+   padding-top: 500px;
+}
+
+#events-cms li {
+   list-style: none;
+}
+
+/*Shop.php*/
+
+.product-grid {
+      width: 600px;
+      padding-left: 650px;
+     min-height:100%;
+
+
+}
+
+.product-grid-element {
+   padding-left: 25px;
+   padding-bottom: 10px;
+   margin: 25px;
+   position:relative;
+    
+}
+.product-grid-element input {
+}
+
+.product-grid-element ul {
+  list-style: none;
+}
+
+/*gallary.php*/
+.center-container-gallary {
+    max-width: 1000px;
+    margin: auto;
+}
+.row-photos-gallary {
+    margin: 8px -16px;
+}
+.row-photos-gallary,
+.row-photos-gallary > .column-photos-gallary {
+    padding: 8px;
+    padding-bottom: 50px;
+    margin-bottom: 50px; 
+}
+
+.column-photos-gallary {
+    float: left;
+    width: 25%;
+
+}
+/*Contact.php*/
+.center-container-contact{
+    background-color: gray;
+   border: 1px solid yellow;
+   width:856px;
+   padding-left: 25px;
+   padding-bottom: 10px;
+   margin: auto;
+   position:relative;
+   float: center;
+    
+}
+/*AccountLogin.php*/
+.login{
+    background-color: gray;
+   border: 1px solid yellow;
+   width: 256px;
+   padding-left: 25px;
+   padding: 10px;
+   margin: auto;
+   float: center;
+}
+
+/*cart.php*/
+.shoppingCart{
+     background-color: gray;
+   border: 1px solid yellow;
+   width: 500px;
+   padding-left: 25px;
+   padding: 10px;
+   margin: auto;
+   float: center;
+}
+/*Footer.php*/
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 110px;
+    background-color:   #191970;
+    color: white;
+    text-align: center;
+}
+.lastModified{
+    padding-bottom: 3px;
+}
+.socialMeida img{
+    margin: 3px;
+}
